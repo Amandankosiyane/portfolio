@@ -1,5 +1,5 @@
 body {
-        background-image: url(https://www.clipartsgram.com/image/314299552-29052852-light-blue-background-abstract-design-retro-grunge-background-texture-easter-layout-of-diamond-eleme-stock-photo.jpg);
+        background-image: url(backgroundImm.jpg);
         background-size: cover;
         background-attachment: fixed;
         display: block;
@@ -21,16 +21,39 @@ p{
 ul {
         text-align: center;
         list-style: none;
+        display: table-cell;
+        /*float: left;*/
+vertical-align: middle;
+height: 100px;
+width: 100px
+display: inline-block;
+height: 3em;
+font-size: 1.2em;
 }
 
 h2 {
+
         text-align: center;
         text-shadow: 1px 1px 2px black, 0 0 25px darkblue, 0 0 5px blue;
 }
+
+.list2{
+        display: table-cell;
+        float: left;
+vertical-align: middle;
+height: 100px;
+width: 100px
+display: inline-block;
+height: 3em;
+font-size: 1.2em;
+}
+
 li {
         text-align: center;
         text-shadow: 1px 1px 2px black, 0 0 25px crimson, 0 0 5px blue;
         font-size: 1.2em;
+        list-style: none;
+
 }
 h3 {
         /*text-align: center;*/
@@ -57,7 +80,7 @@ h3 {
 }
 
 .home-product {
-        background: url("https://www.clipartsgram.com/image/314299552-29052852-light-blue-background-abstract-design-retro-grunge-background-texture-easter-layout-of-diamond-eleme-stock-photo.jpg");
+        background: url("backgroundImm.jpg");
         float: left;
         width: 100%;
         min-height: 641px;

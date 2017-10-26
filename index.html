@@ -1,29 +1,96 @@
 <!DOCTYPE html>
 <html>
 <title>portfolio</title>
+
 <head>
-  <link href="portfolio.css" rel="stylesheet" type="text/css">
-<h1>MY PORTFOLIO</h1>
+        <link href="portfolio.css" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <h1>MY PORTFOLIO</h1>
 </head>
-<body>
-  <h2>FRONT END PROJECTS</h2>
-  <ul>
-<li><a href="https://amandankosiyane.github.io/">Basic web page</a></li>
-<li><a href="https://amandankosiyane.github.io/bootcamp-tests">Bootcamp-tests</a></li>
-<li><a href="https://amandankosiyane.github.io/greetings">Greet exercise</a></li>
-<li><a href="https://amandankosiyane.github.io/registration_numbers">Registration numbers</a></li>
-<li><a href="https://amandankosiyane.github.io/matching_days">Matching days</a></li>
-<li><a href="https://amandankosiyane.github.io/shoe">Shoe catalogue</a></li>
-<li><a href="https://amandankosiyane.github.io/my-everyday-decisios">Everyday decisions</a></li>
-</ul>
 
-  <h2>BACK END PROJECTS</h2>
-  <ul>
+<body class="home-product">
+        <ul class="nav nav-tabs">
+                <li class="active text-white"><a href="#home" data-toggle="tab" aria-expanded="true">About</a></li>
+                <li class="text-white"><a href="#demos" data-toggle="tab" aria-expanded="false">Projects</a></li>
+        </ul>
+        <br><br>
+        <div class="container">
+                <div class="row">
+                        <div id="myTabContent" class="tab-content">
+                                <div class="tab-pane fade active in" id="home">
+                                        <div class="row">
 
-<li><a href="https://radiant-shore-69899.herokuapp.com/greets">Greet using Routes</a></li>
-<li><a href="https://pure-fortress-92774.herokuapp.com/regNumbers">Registration Plates</a></li>
-<li><a href="https://frozen-wildwood-18649.herokuapp.com/waiters">Waiter Availability</a></li>
-<li><a href="https://secure-brushlands-15616.herokuapp.com/">Shoe Catalogue API</a></li>
-  </ul>
+
+                                                <!-- <div class="paragraphs">
+  <div class="row"> -->
+
+                                                <div class="col-md-8">
+                                                        <div class="content-heading clearfix media">
+                                                                <h3>About me &nbsp </h3>
+                                                                <img class="pull-left" src="amanda.png" class="img-responsive" width="300" height="320">
+                                                                <p class="text-white"><strong>My name is Amanda, an entry-level software developer.I matriculated in
+2013, on 2014-2015 after matric I enrolled myself with youth
+development programmes ran by Department of Social Development,
+that is where I was introduced to YearBeyond. On 2016 I was a tutor
+volunteer for an organization called YearBeyond which helps children in
+underprivileged schools with maths and English.
+Starting the software development journey seemed confusing for me
+since I did not have any background in coding but that did not stop me
+from adapting to change and taking challenges as my ladder to up my
+skills and chase my dreams. Being a CodeX student has thought me how
+to approach problems in different situations using algorithm thinking, how
+to work in an Agile environment, I have grown as a developer, team
+worker but mostly I have grown as an individual. On my spare time, i
+enjoy reading facebook diaries or listen to music.
+My wish is to give back to the community one day, like helping young
+people with the basic computer skills by doing that I am trying to close
+the gap of computer illiterate in South Africa, more especially in the
+underprivileged townships.</strong></p>
+                                                        </div>
+                                                </div>
+
+                                        </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="demos">
+                                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo"><h2>FRONT END PROJECTS</h2></button>
+                                        <br><br>
+                                        <div id="demo" class="collapse">
+                                                <ul>
+                                                        <li class="list-group-item list-group-item-success"><a href="https://amandankosiyane.github.io/">Basic web page</a></li>
+                                                        <li class="list-group-item  list-group-item-success"><a href="https://amandankosiyane.github.io/bootcamp-tests">Bootcamp-tests</a></li>
+                                                        <li class="list-group-item  list-group-item-success"><a href="https://amandankosiyane.github.io/greetings">Greet exercise</a></li>
+                                                        <li class="list-group-item  list-group-item-success"><a href="https://amandankosiyane.github.io/registration_numbers">Registration numbers</a></li>
+                                                        <li class="list-group-item  list-group-item-success"><a href="https://amandankosiyane.github.io/matching_days">Matching days</a></li>
+                                                        <li class="list-group-item  list-group-item-success"><a href="https://amandankosiyane.github.io/shoe">Shoe catalogue</a></li>
+                                                        <li class="list-group-item  list-group-item-success"><a href="https://amandankosiyane.github.io/my-everyday-decisios">Everyday decisions</a></li>
+                                                </ul>
+                                        </div>
+                                        <br><br>
+
+                                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#backend"><h2 class="text-white">BACK END PROJECTS</h2> </button>
+                                        <br><br>
+                                        <div id="backend" class="collapse">
+                                                <ul>
+                                                        <li class="list-group-item list-group-item-success"><a href="https://radiant-shore-69899.herokuapp.com/greets">Greet using Routes</a></li>
+                                                        <li class="list-group-item list-group-item-success"><a href="https://pure-fortress-92774.herokuapp.com/regNumbers">Registration Plates</a></li>
+                                                        <li class="list-group-item list-group-item-success"><a href="https://frozen-wildwood-18649.herokuapp.com/waiters">Waiter Availability</a></li>
+                                                        <li class="list-group-item list-group-item-success"><a href="https://secure-brushlands-15616.herokuapp.com/">Shoe Catalogue API</a></li>
+                                                </ul>
+                                        </div>
+                                </div>
+
+                                <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+                                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> -->
+
+                        </div>
+                </div>
+        </div>
 </body>
+
 </html>

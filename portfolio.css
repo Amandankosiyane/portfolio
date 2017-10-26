@@ -1,27 +1,69 @@
-html{
-  background-image: url(backgroundjpg);
-  background-size: cover;
-  background-attachment: fixed;
-display: block;
+body {
+        background-image: url(https://www.clipartsgram.com/image/314299552-29052852-light-blue-background-abstract-design-retro-grunge-background-texture-easter-layout-of-diamond-eleme-stock-photo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: block;
 }
 
-h1{
-  /*font-style: oblique;*/
-font-family: cursive;
-  text-align: center;
-  font-size: 9em;
-  text-shadow: 5px 5px 35px darkblue,5px 5px 30px darkblue, 5px 5px 35px blue;
-  color: lightslategrey;
-  /*text-shadow: 0 0 10px #FF0000, 4px 4px 10px #0000FF;*/
-
+h1 {
+        font-family: cursive;
+        text-align: center;
+        font-size: 9em;
+        text-shadow: 5px 5px 35px darkblue, 5px 5px 30px darkblue, 5px 5px 35px blue;
+        font-family: cursive;
+        color: lightslategrey;
+}
+p{
+        font-size: 1.2em;
+        text-shadow: 5px 5px 35px darkblue, 5px 5px 30px darkblue, 5px 5px 35px blue;
 }
 
-ul{
-  text-align: center;
-  list-style: none;
+ul {
+        text-align: center;
+        list-style: none;
 }
-h2{
-  text-align: center;
-  text-shadow: 1px 1px 2px black, 0 0 25px crimson, 0 0 5px crimson;
 
+h2 {
+        text-align: center;
+        text-shadow: 1px 1px 2px black, 0 0 25px darkblue, 0 0 5px blue;
+}
+li {
+        text-align: center;
+        text-shadow: 1px 1px 2px black, 0 0 25px crimson, 0 0 5px blue;
+        font-size: 1.2em;
+}
+h3 {
+        /*text-align: center;*/
+        text-shadow: 1px 1px 2px black, 0 0 25px crimson, 0 0 5px blue;
+}
+
+
+@-webkit-keyframes backgroundScroll {
+        from {
+                background-position: 0 0;
+        }
+        to {
+                background-position: -400px 0;
+        }
+}
+
+@keyframes backgroundScroll {
+        from {
+                background-position: 0 0;
+        }
+        to {
+                background-position: -400px 0;
+        }
+}
+
+.home-product {
+        background: url("https://www.clipartsgram.com/image/314299552-29052852-light-blue-background-abstract-design-retro-grunge-background-texture-easter-layout-of-diamond-eleme-stock-photo.jpg");
+        float: left;
+        width: 100%;
+        min-height: 641px;
+        -webkit-animation: backgroundScroll 40s linear infinite;
+        animation: backgroundScroll 20 linear infinite;
+        background-size: 140% 100%;
+        background-position: top;
+        background-attachment: fixed;
 }

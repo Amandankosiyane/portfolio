@@ -60,24 +60,6 @@ h3 {
 }
 
 
-/*@-webkit-keyframes backgroundScroll {
-        from {
-                background-position: 0 0;
-        }
-        to {
-                background-position: -400px 0;
-        }
-}
-
-@keyframes backgroundScroll {
-        from {
-                background-position: 0 0;
-        }
-        to {
-                background-position: -400px 0;
-        }
-}*/
-
 .home-product {
         background: url("backgroundImm.jpg");
         float: left;

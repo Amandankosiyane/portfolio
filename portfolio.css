@@ -22,7 +22,6 @@ ul {
         text-align: center;
         list-style: none;
         display: table-cell;
-        /*float: left;*/
 vertical-align: middle;
 height: 100px;
 width: 100px
@@ -61,7 +60,7 @@ h3 {
 }
 
 
-@-webkit-keyframes backgroundScroll {
+/*@-webkit-keyframes backgroundScroll {
         from {
                 background-position: 0 0;
         }
@@ -77,7 +76,7 @@ h3 {
         to {
                 background-position: -400px 0;
         }
-}
+}*/
 
 .home-product {
         background: url("backgroundImm.jpg");

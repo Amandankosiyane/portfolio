@@ -65,9 +65,9 @@ h3 {
         float: left;
         width: 100%;
         min-height: 641px;
-        -webkit-animation: backgroundScroll 40s linear infinite;
+        /*-webkit-animation: backgroundScroll 40s linear infinite;
         animation: backgroundScroll 20 linear infinite;
         background-size: 140% 100%;
-        background-position: top;
+        background-position: top;*/
         background-attachment: fixed;
 }
